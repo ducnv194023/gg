@@ -16,7 +16,7 @@ app.get('/sapo', async (req, res) => {
     method: 'post',
     url: 'https://planetcosmetic.mysapogo.com/admin/oauth/access_token',
     data: {
-      clientId: 'clientid',
+      client_id: 'clientid',
       client_secret: 'client_secret',
       code
     }
